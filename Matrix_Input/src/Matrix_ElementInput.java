@@ -1,7 +1,7 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-class Matrix_Input
+class Matrix_ElementInput
 {
     public static void main(String args[]) throws IOException
     {
