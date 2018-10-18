@@ -1,0 +1,18 @@
+In this program we are inserting element in the square matrix of 'n' terms, Values will insert in increasing order and
+ the diagnol element will be all one 
+
+Output:
+
+Example of the code:
+ 
+	Enter Square Matrix value  :
+	5
+	
+	Elements in Matrix are : 
+	
+	1	2	3	4	5	
+	6	1	8	9	10	
+	11	12	1	14	15	
+	16	17	18	1	20	
+	21	22	23	24	1	
+   
