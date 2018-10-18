@@ -37,6 +37,7 @@ class Insert_value
             }
         }
         System.out.println("Elements in Matrix are : ");
+        System.out.println("Elements in Matrix are : ");
         System.out.println("");
         
         for(i=0;i<=n-1;i++)
