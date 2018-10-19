@@ -1,14 +1,14 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-class Insert_value
+class Diagnol_above_below
 
 {
     public static void main(String args[]) throws IOException
     {
         BufferedReader BR=new BufferedReader(new InputStreamReader (System.in));
         
-        int i,j,c=0,n;
+        int i,j,c=1,n,a=0,b=1;
         //String m;
         //System.out.println("Enter the Matrix ");
 		//System.out.println("Enter the First Dimension");
@@ -27,12 +27,16 @@ class Insert_value
 				 if (i == j)
 				 {
 					 
-					 Number[i][j]=1;
+					 Number[i][j]=c;
 				 }
-				 else 
+				 else if(i<j)  
 				 {		
 					 
-					 Number[i][j]=c;
+					 Number[i][j]=a;
+				 }
+				 else
+				 {
+					 Number[i][j]=b;
 				 }
             }
         }
